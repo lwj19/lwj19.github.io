@@ -44,10 +44,10 @@
 </head>
 <body>
 
-<button id="btn" onclick="clickButton()">问卷提交后点击此按钮</button>
+<button id="btn" onclick="clickButton()">直接点击此处进入实验</button>
 <!--<h2>我是问卷我是问卷</h2>-->
 
-<iframe src="https://www.credamo.com/answer.html#/s/NbMveyano?"
+<iframe src="https://www.credamo.com/s/7vEFJ3ano"
         width="90%"
         height="100%"
         id = 'questionare'
@@ -72,7 +72,7 @@
   };
 
   let ext = getUrlParameter('ext')
-  let a = "https://www.credamo.com/answer.html#/s/NbMveyano?&ext=" + ext
+  let a = "https://www.credamo.com/s/7vEFJ3ano?" + ext
   document.getElementById('questionare').setAttribute("src",a);
   console.log(ext)
 
